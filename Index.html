@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="background-audio" loop>
+        <source src="background.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="screamer-audio">
+        <source src="screamer.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <h1 id="scary-text">DEATH CALCULATOR</h1>
+        <p>Рассчитай свою судьбу... если осмелишься.</p>
+    </header>
+
+    <section class="content">
+        <h2>Ты готов узнать правду?</h2>
+        <p>Введи свое имя и дату рождения, и мы предскажем твою судьбу.</p>
+        <form id="death-form">
+            <input type="text" placeholder="Твое имя" required>
+            <input type="date" required>
+            <button type="submit">Узнать</button>
+        </form>
+    </section>
+
+    <div id="screamer">
+        <img src="screamer.jpg" alt="SCREAMER">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Death Calculator. Все права... ну, если ты доживешь.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
